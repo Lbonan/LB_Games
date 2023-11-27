@@ -10,10 +10,16 @@ $(document).ready(function () {
         required: true,
         email: true,
       },
+      telefone: {
+        required: true,
+      },
     },
     messages: {
       nome: "Por favor, informe o nome completo",
-      email: "Por favor, informe o seu email",
+      email: "Por favor, informe seu email",
+      telefone: "Por favor, informe seu telefone",
     },
+    errorClass: "error",
+    errorElement: "span",
   });
 });

@@ -135,7 +135,6 @@ footer {
   background-color: rgb(238, 238, 6);
 }
 
-.mensagem-erro {
+.error {
   color: red;
-  display: none;
 }
