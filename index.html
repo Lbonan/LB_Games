@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LB Games</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+      <div class="container">
+        <h1 class="section-tiltes navbar-brand fs-2 m-0">LB Games</h1>
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu">
+          <ul class="nav nav-pills d-block d-lg-flex">
+            <li class="nav-item fw-bold">
+              <a class="nav-link active" href="#sobre-a-lb">
+                <i class="bi bi-house-door me-1"></i>
+                Sobre a LB
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#console">
+                <i class="bi bi-nintendo-switch me-1"></i>
+                Consoles
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#jogos-promocoes">
+                <i class="bi bi-controller me-1 cl-black"></i>
+                Jogos/Promoções
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#fale-conosco">
+                <i class="bi bi-chat-left-dots-fill me-1"></i>
+                Fale conosco
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+      <section id="sobre-a-lb">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3200">
+              <img class="d-block w-100" src="imagens/assassins-creed-black-flag.png" alt="Assassin's Creed Black Flag" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img class="d-block w-100" src="imagens/crysis-3.png" alt="Crysis 3" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img class="d-block w-100" src="imagens/the-last-of-us-2.png" alt="The last of us 2" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img class="d-block w-100" src="imagens/call-of-duty.png" alt="Call of duty ww2" />
+            </div>
+          </div>
+          <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+          </div>
+        </div>
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="imagens/img-loja/joja-lb.jpg" alt="imagem da loja" class="d-block w-100 rounded" />
+              </div>
+              <div class="col-md-7">
+                <h1 class="section-tiltes text-color mt-4 mt-md-0">Sobre a LB Games</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ab illum debitis repudiandae ratione saepe dolore optio quidem quae. A perferendis culpa dolores ducimus sapiente
+                  quo laudantium Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ab illum debitis repudiandae.
+                </p>
+                <h3 class="section-tiltes text-color">Nossos serviços</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi voluptatem nemo reprehenderit aliquam quaera saepe dolore</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="console" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-tiltes text-color text-center mb-5">Consoles</h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-3">
+              <nav class="nav nav-pills flex-column nav-consoles rounded">
+                <button data-bs-toggle="tab" data-bs-target="#playstation" type="button" class="nav-link active p-2">
+                  <i class="bi bi-playstation"></i>
+                  Playstation
+                </button>
+                <button data-bs-toggle="tab" data-bs-target="#xbox" type="button" class="nav-link mt-2 mb-2 p-2">
+                  <i class="bi bi-xbox"></i>
+                  Xbox
+                </button>
+                <button data-bs-toggle="tab" data-bs-target="#switch" type="button" class="nav-link p-2">
+                  <i class="bi-nintendo-switch"></i>
+                  Switch
+                </button>
+              </nav>
+            </aside>
+            <div class="col-md-9">
+              <div class="tab-content">
+                <div class="tab-pane active" id="playstation">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 ">
+                      <div class="card">
+                        <header class="card-header fw-bold">Playstation 5 slim</header>
+                        <img src="imagens/consoles/Sony-PlayStation-5-Slim.jpg" alt="Playstation 5" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <p class="card-text fw-bold">R$ 4.000,00</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card">
+                        <header class="card-header fw-bold">Playstation 5 slim</header>
+                        <img src="imagens/consoles/Sony-PlayStation-5-Slim.jpg" alt="Playstation 5" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <p class="card-text fw-bold">R$ 4.000,00</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card mt-md-2">
+                        <header class="card-header fw-bold">Playstation 5 slim</header>
+                        <img src="imagens/consoles/Sony-PlayStation-5-Slim.jpg" alt="Playstation 5" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <p class="card-text fw-bold">R$ 4.000,00</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="xbox">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card">
+                        <header class="card-header fw-bold">Xbox Series X</header>
+                        <img src="imagens/consoles/xbox.jpeg" alt="Xbox Series X" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card">
+                        <header class="card-header fw-bold">Xbox Series X</header>
+                        <img src="imagens/consoles/xbox.jpeg" alt="Xbox Series X" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card mt-md-2">
+                        <header class="card-header fw-bold">Xbox Series X</header>
+                        <img src="imagens/consoles/xbox.jpeg" alt="Xbox Series X" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="switch">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card">
+                        <header class="card-header fw-bold">Nintendo Switch</header>
+                        <img src="imagens/consoles/nintendo-switch.jpg" alt="Nintendo Switch" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card">
+                        <header class="card-header fw-bold">Nintendo Switch</header>
+                        <img src="imagens/consoles/nintendo-switch.jpg" alt="Nintendo Switch" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <div class="card mt-md-2">
+                        <header class="card-header fw-bold">Nintendo Switch</header>
+                        <img src="imagens/consoles/nintendo-switch.jpg" alt="Nintendo Switch" class="d-block w-100 rounded" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Informações do produto</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dicta aliquam molestiae.</p>
+                          <a href="#" class="btn">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="jogos-promocoes" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-tiltes text-center mb-5">Jogos/Promoções</h2>
+          </div>
+          <div class="row">
+            <ul class="nav nav-pills">
+              <li class="nav-item dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                <a href="#" class="nav-link dropdown-toggle">Jogos</a>
+                <ul class="dropdown-menu drop">
+                  <li><a href="#jogos-acao" data-bs-toggle="tab" data-bs-target="#jogos-acao" class="dropdown-item active">Ação</a></li>
+                  <li><a href="#jogos-terror" class="dropdown-item" data-bs-toggle="tab" data-bs-target="#jogos-terror">Terror</a></li>
+                  <li><a href="#jogos-esportivos" data-bs-toggle="tab" data-bs-target="#jogos-esportivos" class="dropdown-item">Esportes</a></li>
+                  <li><a href="#jogos-indies" data-bs-toggle="tab" data-bs-target="#jogos-indies" class="dropdown-item">Indies</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-bs-toggle="tab" data-bs-target="#promocoes">Promoções</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="jogos-acao">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Assassin's Creed Black Flag</header>
+                      <img class="d-block w-100 rounded" src="imagens/assassins-creed-black-flag.png" alt="Assassin's Creed Black Flag" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 128,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Crysis 3</header>
+                      <img class="d-block w-100 rounded" src="imagens/crysis-3.png" alt="Assassin's Creed Black Flag" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 128,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Call of duty ww 2</header>
+                      <img class="d-block w-100 rounded" src="imagens/call-of-duty.png" alt="Assassin's Creed Black Flag" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 150,20</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--FIm do col-->
+                </div>
+              </div>
+              <div class="tab-pane" id="jogos-terror">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">The last of us 2</header>
+                      <img class="d-block w-100 rounded" src="imagens/the-last-of-us-2.png" alt="Assassin's Creed Black Flag" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 170,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Outlast 2</header>
+                      <img class="d-block w-100 rounded" src="imagens/outlast-2.png" alt="Assassin's Creed Black Flag" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 50,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Dead by daylight</header>
+                      <img class="d-block w-100 rounded" src="imagens/dead-by-light.jpg" alt="Assassin's Creed Black Flag" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 90,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="jogos-esportivos">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Fifa 2024</header>
+                      <img class="d-block w-100 rounded" src="imagens/fifa.jpg" alt="Fifa" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 260,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">F1 2021</header>
+                      <img class="d-block w-100 rounded" src="imagens/f1.jpg" alt="F1 2021" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 120,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Nba 2k 2024</header>
+                      <img class="d-block w-100 rounded" src="imagens/nba-2k.jpg" alt="Nba 2k 2024" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 180,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="jogos-indies">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Undertale</header>
+                      <img class="d-block w-100 rounded" src="imagens/undertale.png" alt="Undertale" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 30,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Hades</header>
+                      <img class="d-block w-100 rounded" src="imagens/Hades.jpg" alt="Hades" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 70,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <header class="card-header fw-bold text-color">Hollow knight</header>
+                      <img class="d-block w-100 rounded" src="imagens/hollow_knight.jpg" alt="Hollow knight" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Informações do produto</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et nemo non.</p>
+                        <p class="card-text fw-bold">R$ 45,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Disponível para
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox ms-1 me-1"></i>
+                        <i class="bi bi-nintendo-switch"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="promocoes">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <img src="imagens/consoles/xbox.jpeg" alt="Xbox Series X" class="d-block w-100 rounded" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Xbox Series X</h5>
+                        <p class="card-text fw-bold">De: <del>R$ 4.000,00</del></p>
+                        <p class="card-text fw-bold">Por: R$ 3.200,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Promoção válida até <time>02/12/2023</time>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-5">
+                      <img src="imagens/consoles/nintendo-switch.jpg" alt="Xbox Series X" class="d-block w-100 rounded" />
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Nintendo switch</h5>
+                        <p class="card-text fw-bold">De: <del>R$ 2.800,00</del></p>
+                        <p class="card-text fw-bold">Por: R$ 1.600,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                      </div>
+                      <div class="card-footer">
+                        Promoção válida até <time>02/12/2023</time>
+                      </div>
+                   </div>
+                 </div>
+                 <div class="col-md-4">
+                  <div class="card mt-5">
+                    <header class="card-header fw-bold text-color">Assassin's Creed Black Flag</header>
+                    <img src="imagens/assassins-creed-black-flag.png" alt="Assassin Creed Black Flag" class="d-block w-100 rounded" />
+                    <div class="card-body">
+                      <p class="card-text fw-bold">De: <del>R$ 128,90</del></p>
+                      <p class="card-text fw-bold">Por: R$ 40,00</p>
+                      <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                      Promoção válida até <time>02/12/2023</time>
+                    </div>
+                 </div>
+               </div>
+           </div>
+         </div>
+       </section>
+
+       <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-tiltes text-color mt-5 text-center">Fale conosco</h2>
+            <p class="text-center mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, blanditiis amet consectetur.</p>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <form id="form">
+                <div>
+                  <label class="form-label" for="nome">Seu nome:</label>
+                  <input class="form-control" type="text" id="nome" name="nome">
+                </div>
+                <div>
+                  <label class="form-label" for="email">Seu email:</label>
+                  <input class="form-control" type="email" id="email" name="email">
+                  
+                </div>
+                <div>
+                  <label class="form-label" for="telefone">Seu telefone:</label>
+                  <input class="form-control" type="tel" id="telefone" name="telefone">
+                </div>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h2 class="section-tiltes text-color mt-5">Visite nossas redes</h2>
+                <ul>
+                  <li>
+                    <a href="#"><i class=" fs-5 bi bi-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class=" fs-5 bi bi-instagram me-1 ms-1"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class=" fs-5 bi bi-facebook"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <h2 class="section-tiltes text-color">Endereço</h2>
+                <address><i>Rua xxx N°224 - Rio de janeiro - RJ</i></address>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <footer class="p-3 text-color fw-bold">
+        &copy; - Todos direitos reservados - LB Games - 2023
+       </footer>
+       </div>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery.mask.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/messages_pt_BR.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>

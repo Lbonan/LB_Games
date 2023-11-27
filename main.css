@@ -1,0 +1,141 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.section-tiltes {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #000;
+  color: yellow;
+}
+
+#cabecalho .nav .nav-link {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(238, 238, 6);
+  opacity: 1;
+}
+
+.text-color {
+  color: #000;
+}
+
+#sobre-a-lb {
+  background-image: linear-gradient(to right, rgb(255, 255, 3) 10%, #faee47 50%);
+}
+
+.nav-consoles .nav-link.active {
+  background-color: #000;
+  color: yellow;
+}
+
+.nav-consoles,
+header {
+  background-color: rgb(238, 238, 6);
+}
+
+.nav-consoles .nav-link {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: rgb(238, 238, 6);
+}
+
+.btn {
+  background-color: #000;
+  color: rgb(238, 238, 6);
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#jogos-promocoes {
+  background-image: linear-gradient(to top right, rgb(238, 238, 6), #000);
+}
+
+#jogos-promocoes h2 {
+  background-image: linear-gradient(to left, #000 10%, rgb(238, 238, 6) 40%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+}
+
+#jogos-promocoes .nav .nav-link {
+  color: #000;
+}
+
+#jogos-promocoes .dropdown-item.active {
+  background-color: #000;
+  color: yellow;
+}
+
+#jogos-promocoes .nav-pills .nav-link {
+  background-color: rgb(238, 238, 6);
+  color: #000;
+}
+
+#jogos-promocoes .nav-pills .nav-link:hover {
+  background-color: #000;
+  color: yellow;
+}
+
+#fale-conosco label {
+  font-weight: bold;
+  color: #000;
+}
+
+#fale-conosco input {
+  margin-bottom: 2em;
+}
+
+#fale-conosco button {
+  padding: 8px;
+  border: none;
+  width: 20%;
+  margin-top: 1em;
+  font-weight: bold;
+  background-color: #000;
+  color: rgb(238, 238, 6);
+  border-radius: 6px;
+}
+
+#fale-conosco button:hover {
+  background-color: rgb(238, 238, 6);
+  color: #000;
+}
+
+#fale-conosco li {
+  display: inline;
+  list-style: none;
+}
+
+#fale-conosco i {
+  color: #000;
+}
+
+#fale-conosco a {
+  list-style: none;
+}
+
+footer {
+  background-color: rgb(238, 238, 6);
+}
+
+.mensagem-erro {
+  color: red;
+  display: none;
+}
