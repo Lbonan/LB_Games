@@ -1,5 +1,5 @@
 ## LB Games 🎮
-LB Games é um site voltado para a venda de jogso e consoles.
+LB Games é um site voltado para a venda de jogos e consoles.
 
 🔗Deploy: https://lb-games.vercel.app/
 
